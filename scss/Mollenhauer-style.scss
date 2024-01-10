@@ -31,4 +31,66 @@ body {
     left: 0;
     top: 0;
     z-index: 50;
+	background: none;
+}
+
+.header__countainer {
+}
+
+.header__body {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo {
+	img {
+		width: 263px;
+		height: 46px;
+	}
+}
+
+.header__navigation {
+}
+
+.header__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 32px;
+}
+
+.header__item {
+}
+
+.header__button-column {
+}
+
+.header__button {
+}
+
+.header__lang-column {
+}
+
+.header__lang {
+}
+
+.main {
+}
+
+.main__countainer {
+}
+
+.main__body {
+}
+
+.main__title {
+}
+
+.main__text {
+}
+
+.main__button-column {
+}
+
+.main__button {
 }

@@ -1,0 +1,14 @@
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mask group">
+<mask id="mask0_18_262" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="12" height="12">
+<circle id="Ellipse 123" cx="6" cy="6" r="6" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_18_262)">
+<g id="Group 1235">
+<path id="Vector" d="M-3.53613 8.42139H13.426V12.6319H-3.53613V8.42139Z" fill="#FFCE00"/>
+<path id="Vector_2" d="M-3.53613 0H13.426V4.21047H-3.53613V0Z" fill="black"/>
+<path id="Vector_3" d="M-3.53613 4.21045H13.426V8.42092H-3.53613V4.21045Z" fill="#DD0000"/>
+</g>
+</g>
+</g>
+</svg>

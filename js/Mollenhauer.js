@@ -1,40 +1,23 @@
-function onEntry(entry) {
-  entry.forEach(change => {
-    if (change.isIntersecting) {
-      change.target.classList.add('element-show');
-    } else {
-      change.target.classList.remove('element-show')
-    }
-  });
-}
+// let cardNumber = "2034399002125581";
+// let cardHidden = "*";
 
-let options = {
-  threshold: [0.5]
-};
-let observer = new IntersectionObserver(onEntry, options);
-let elements = document.querySelectorAll('.element-animation');
+// const getHiddenCard = () => {
+//   console.log(cardNumber.replace("203439900212", cardHidden.repeat(4)));
+// };
 
-for (let elm of elements) {
-  observer.observe(elm);
-}
+// const isInternationalPhone = (number) => {
+//   const firstLetter = number[0];
+//   console.log(firstLetter.toUpperCase() === firstLetter);
+// };
 
-var swiper = new Swiper(".swiper", {
-	watchOverflow: false,
-	slidesPerView: 'auto',
-	slidesPerGroup: 1,
-	slidesPerColumn: 1,
-	initialSlide: 0,
-	dots: false,
-	// loop: true,
-	// loopedSlides: 3,
-	mousewheel: false,
-	keyboard: true,
-	speed: 900,
-	autoplay: {
-		delay: 3500,
-	},
-	effect: 'fade',
-	fadeEffect: {
-		crossfade: true
-	}
-});
+// isInternationalPhone();
+
+// const normalizeUrl = (urlSite = 'https://', address = 'createx.com') => {
+//   if (urlSite.startsWith('https://').address) {
+// 	console.log(urlSite);
+//   } else {
+//     console.log("error");
+//   }
+// };
+
+// normalizeUrl();

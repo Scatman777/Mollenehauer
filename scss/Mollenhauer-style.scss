@@ -1,6 +1,10 @@
-@import "Mollenhauer-null.scss";
+@import "_Mollenhauer-null.scss";
+@import "_Mollenhauer-mixin.scss";
 // /* Null-Style */
 
+$colorWhite: #fff;
+$colorNightBlue: #06255B;
+d
 html,
 body {
     font-family: "Lato", sans-serif;
@@ -41,6 +45,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+    padding-top: 55px;
 }
 
 .header__logo {
@@ -61,23 +66,52 @@ body {
 
 .header__item {
 	a {
-		
+        @include text-15px;
 	}
 }
 
 .header__button-column {
+    display: flex;
+    gap: 16px;
 }
 
 .header__button {
+    background-color: #DA5D24;
+    padding: 19px 18px;
+
+    a {
+        @include text-15px;
+        font-weight: 600;
+        letter-spacing: 0.3;
+    }
 }
 
 .header__lang-column {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: $colorWhite;
+    padding: 18px 15px;
 }
 
 .header__lang {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+
+    img {
+        width: 12px;
+        height: 12px;
+    }
+
+    a {
+        @include text-15px;
+        color: $colorNightBlue;
+    }
 }
 
 .main {
+    background: linear-gradient(180deg, #06255B 0%, rgba(6, 37, 91, 0.00) 100%);
 }
 
 .main__countainer {

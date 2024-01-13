@@ -104,7 +104,7 @@ h6 {
   src: local("MinionPro"), url(./fonts/MinionPro-MediumIt.woff) format(woff);
   font-weight: 500;
 }
-html,
+d html,
 body {
   font-family: "Lato", sans-serif;
   height: 100%;
@@ -140,6 +140,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 55px;
 }
 
 .header__logo img {
@@ -151,4 +152,64 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
+}
+
+.header__item a {
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+}
+
+.header__button-column {
+  display: flex;
+  gap: 16px;
+}
+
+.header__button {
+  background-color: #DA5D24;
+  padding: 19px 18px;
+}
+.header__button a {
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  letter-spacing: 0.3;
+}
+
+.header__lang-column {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #fff;
+  padding: 18px 15px;
+}
+
+.header__lang {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.header__lang img {
+  width: 12px;
+  height: 12px;
+}
+.header__lang a {
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #06255B;
+}
+
+.main {
+  background: linear-gradient(180deg, #06255B 0%, rgba(6, 37, 91, 0) 100%);
 }/*# sourceMappingURL=Mollenhauer-style.css.map */

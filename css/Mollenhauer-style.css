@@ -90,7 +90,7 @@ h6 {
   src: local("MinionPro"), url(./fonts/MinionPro-MediumIt.woff) format(woff);
   font-weight: 400;
 }
-html,
+d html,
 body {
   font-family: sans-serif;
   height: 100%;
@@ -140,7 +140,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+<<<<<<< HEAD
   padding-top: 37px;
+=======
+  padding-top: 55px;
+>>>>>>> e1468118c47025cce1fffee41b346f6594d482d1
 }
 
 .header__logo {
@@ -158,11 +162,20 @@ body {
 }
 
 .header__item a {
+<<<<<<< HEAD
   font-family: sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
   color: #fff;
+=======
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+>>>>>>> e1468118c47025cce1fffee41b346f6594d482d1
 }
 
 .header__button-column {
@@ -175,11 +188,20 @@ body {
   padding: 19px 18px;
 }
 .header__button a {
+<<<<<<< HEAD
   font-family: sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
   color: #fff;
+=======
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+>>>>>>> e1468118c47025cce1fffee41b346f6594d482d1
   font-weight: 600;
   letter-spacing: 0.3;
 }
@@ -202,15 +224,25 @@ body {
   height: 12px;
 }
 .header__lang a {
+<<<<<<< HEAD
   font-family: sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
   color: #fff;
+=======
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+>>>>>>> e1468118c47025cce1fffee41b346f6594d482d1
   color: #06255B;
 }
 
 .main {
+<<<<<<< HEAD
   height: 1000px;
 }
 
@@ -355,3 +387,7 @@ body {
   line-height: 85%;
   color: #fff;
 }
+=======
+  background: linear-gradient(180deg, #06255B 0%, rgba(6, 37, 91, 0) 100%);
+}/*# sourceMappingURL=Mollenhauer-style.css.map */
+>>>>>>> e1468118c47025cce1fffee41b346f6594d482d1

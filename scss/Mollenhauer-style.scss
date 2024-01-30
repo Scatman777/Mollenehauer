@@ -1,9 +1,13 @@
-@import "Mollenhauer-null.scss";
+@import "_Mollenhauer-null.scss";
+@import "_Mollenhauer-mixin.scss";
 // /* Null-Style */
+
+$colorWhite: #fff;
+$colorNightBlue: #06255B;
 
 html,
 body {
-    font-family: "Lato", sans-serif;
+    font-family: sans-serif;
     height: 100%;
     width: 100%;
 }
@@ -18,10 +22,15 @@ body {
 ._countainer {
     display: flex;
     flex-direction: column;
-    max-width: 1600px;
+    max-width: 1700px;
     padding: 0px 15px;
     box-sizing: content-box;
     margin: 0 auto;
+}
+
+.headerMain {
+    background: linear-gradient(180deg, #06255B 0%, rgba(6, 37, 91, 0.00) 100%), url('/img/Main-Img.jpg') center no-repeat;
+    background-size: cover;
 }
 
 ////// HEADER ////////////////
@@ -35,15 +44,24 @@ body {
 }
 
 .header__countainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1700px;
+    padding-left: 15px;
+    box-sizing: content-box;
+    margin: 0 auto;
 }
 
 .header__body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+    padding-top: 37px;
 }
 
 .header__logo {
+    margin-bottom: 55px;
+
 	img {
 		width: 263px;
 		height: 46px;
@@ -61,39 +79,183 @@ body {
 
 .header__item {
 	a {
-		
+        @include text-15px;
 	}
 }
 
 .header__button-column {
+    display: flex;
+    gap: 16px;
 }
 
 .header__button {
+    background-color: #DA5D24;
+    padding: 19px 18px;
+
+    a {
+        @include text-15px;
+        font-weight: 600;
+        letter-spacing: 0.3;
+    }
 }
 
 .header__lang-column {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: $colorWhite;
+    padding: 18px 15px;
 }
 
 .header__lang {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+
+    img {
+        width: 12px;
+        height: 12px;
+    }
+
+    a {
+        @include text-15px;
+        color: $colorNightBlue;
+    }
 }
 
 .main {
+    height: 1000px;
 }
 
 .main__countainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1700px;
+    padding: 0px 316px 0px 166px;
+    box-sizing: content-box;
+    margin: 0 auto;
 }
 
 .main__body {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin: 140px 0px 340px;
+}
+
+.main__block-info {
+    max-width: 723px;
+    width: 100%;
+    height: 100%;
 }
 
 .main__title {
+    @include h1;
+    margin-bottom: 24px;
+    text-wrap: balance;
+
+    span {
+        @include h1;
+        font-weight: 700;
+    }
 }
 
 .main__text {
+    @include text-25px;
+    width: 623px;
+    margin-bottom: 28px;
 }
 
 .main__button-column {
+    display: flex;
+    gap: 16px;
 }
 
 .main__button {
+    &:nth-child(1) {
+        width: 215px;
+        background-color: rgba(6, 37, 91, 0.60);
+        border: 2px solid $colorWhite;
+        padding: 17px 18px;
+        transition: all 0.3s;
+
+        a {
+            @include text-15px;
+            font-weight: 600;
+            letter-spacing: 0.3px;
+            transition: all 0.3s;
+        }
+
+        &:hover {
+            background-color: $colorWhite;
+            transition: all 0.3s;
+
+            a {
+                color: $colorNightBlue;
+                transition: all 0.3s;
+            }
+        }
+    }
+
+    &:nth-child(2) {
+        width: 135px;
+        background-color: $colorWhite;
+        padding: 17px 18px;
+        transition: all 0.3s;
+
+        a {
+            @include text-15px;
+            color: $colorNightBlue;
+            transition: all 0.3s;
+        }
+
+        &:hover {
+            background-color: #ABB5C7;
+            transition: all 0.3s;
+
+            a {
+                color: $colorWhite;
+                transition: all 0.3s;
+            }
+        }
+    }
+}
+
+.main__block-invertedSquare {
+}
+
+.main__invertedSquare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: rotate(45deg);
+
+    &:nth-child(1) {
+        width: 230px;
+        height: 230px;
+        top: 210px;
+        right: 316px;
+        background-color: #06255b75;
+        border: 6px solid $colorWhite;
+    }
+
+    &:nth-child(2) {
+        width: 176px;
+        height: 188px;
+        top: 400px;
+        right: 537px;
+    }
+
+    &:nth-child(3) {
+        width: 270px;
+        height: 270px;
+        top: 520px;
+        right: 316px;
+    }
+
+    span {
+        transform: rotate(315deg);
+        @include text-21px;
+    }
 }

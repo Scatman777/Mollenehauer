@@ -90,7 +90,7 @@ h6 {
   src: local("MinionPro"), url(./fonts/MinionPro-MediumIt.woff) format(woff);
   font-weight: 400;
 }
-d html,
+html,
 body {
   font-family: sans-serif;
   height: 100%;
@@ -140,11 +140,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-<<<<<<< HEAD
   padding-top: 37px;
-=======
-  padding-top: 55px;
->>>>>>> e1468118c47025cce1fffee41b346f6594d482d1
 }
 
 .header__logo {
@@ -162,20 +158,11 @@ body {
 }
 
 .header__item a {
-<<<<<<< HEAD
   font-family: sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
   color: #fff;
-=======
-  color: #FFF;
-  font-family: Source Sans Pro;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0.2px;
->>>>>>> e1468118c47025cce1fffee41b346f6594d482d1
 }
 
 .header__button-column {
@@ -188,20 +175,11 @@ body {
   padding: 19px 18px;
 }
 .header__button a {
-<<<<<<< HEAD
   font-family: sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
   color: #fff;
-=======
-  color: #FFF;
-  font-family: Source Sans Pro;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0.2px;
->>>>>>> e1468118c47025cce1fffee41b346f6594d482d1
   font-weight: 600;
   letter-spacing: 0.3;
 }
@@ -224,29 +202,19 @@ body {
   height: 12px;
 }
 .header__lang a {
-<<<<<<< HEAD
   font-family: sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
   color: #fff;
-=======
-  color: #FFF;
-  font-family: Source Sans Pro;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0.2px;
->>>>>>> e1468118c47025cce1fffee41b346f6594d482d1
   color: #06255B;
 }
 
-.main {
-<<<<<<< HEAD
+.sectionMain {
   height: 1000px;
 }
 
-.main__countainer {
+.sectionMain__countainer {
   display: flex;
   flex-direction: column;
   max-width: 1700px;
@@ -255,20 +223,20 @@ body {
   margin: 0 auto;
 }
 
-.main__body {
+.sectionMain__body {
   display: flex;
   justify-content: space-between;
   gap: 100px;
   margin: 140px 0px 340px;
 }
 
-.main__block-info {
+.sectionMain__block-info {
   max-width: 723px;
   width: 100%;
   height: 100%;
 }
 
-.main__title {
+.sectionMain__title {
   font-family: sans-serif;
   font-size: 54px;
   font-weight: 400;
@@ -278,7 +246,7 @@ body {
   margin-bottom: 24px;
   text-wrap: balance;
 }
-.main__title span {
+.sectionMain__title span {
   font-family: sans-serif;
   font-size: 54px;
   font-weight: 400;
@@ -288,7 +256,7 @@ body {
   font-weight: 700;
 }
 
-.main__text {
+.sectionMain__text {
   font-family: sans-serif;
   font-size: 22px;
   font-weight: 400;
@@ -298,19 +266,19 @@ body {
   margin-bottom: 28px;
 }
 
-.main__button-column {
+.sectionMain__button-column {
   display: flex;
   gap: 16px;
 }
 
-.main__button:nth-child(1) {
+.sectionMain__button:nth-child(1) {
   width: 215px;
   background-color: rgba(6, 37, 91, 0.6);
   border: 2px solid #fff;
   padding: 17px 18px;
   transition: all 0.3s;
 }
-.main__button:nth-child(1) a {
+.sectionMain__button:nth-child(1) a {
   font-family: sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -320,21 +288,21 @@ body {
   letter-spacing: 0.3px;
   transition: all 0.3s;
 }
-.main__button:nth-child(1):hover {
+.sectionMain__button:nth-child(1):hover {
   background-color: #fff;
   transition: all 0.3s;
 }
-.main__button:nth-child(1):hover a {
+.sectionMain__button:nth-child(1):hover a {
   color: #06255B;
   transition: all 0.3s;
 }
-.main__button:nth-child(2) {
+.sectionMain__button:nth-child(2) {
   width: 135px;
   background-color: #fff;
   padding: 17px 18px;
   transition: all 0.3s;
 }
-.main__button:nth-child(2) a {
+.sectionMain__button:nth-child(2) a {
   font-family: sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -343,23 +311,23 @@ body {
   color: #06255B;
   transition: all 0.3s;
 }
-.main__button:nth-child(2):hover {
+.sectionMain__button:nth-child(2):hover {
   background-color: #ABB5C7;
   transition: all 0.3s;
 }
-.main__button:nth-child(2):hover a {
+.sectionMain__button:nth-child(2):hover a {
   color: #fff;
   transition: all 0.3s;
 }
 
-.main__invertedSquare {
+.sectionMain__invertedSquare {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
   transform: rotate(45deg);
 }
-.main__invertedSquare:nth-child(1) {
+.sectionMain__invertedSquare:nth-child(1) {
   width: 230px;
   height: 230px;
   top: 210px;
@@ -367,19 +335,19 @@ body {
   background-color: rgba(6, 37, 91, 0.4588235294);
   border: 6px solid #fff;
 }
-.main__invertedSquare:nth-child(2) {
+.sectionMain__invertedSquare:nth-child(2) {
   width: 176px;
   height: 188px;
   top: 400px;
   right: 537px;
 }
-.main__invertedSquare:nth-child(3) {
+.sectionMain__invertedSquare:nth-child(3) {
   width: 270px;
   height: 270px;
   top: 520px;
   right: 316px;
 }
-.main__invertedSquare span {
+.sectionMain__invertedSquare span {
   transform: rotate(315deg);
   font-family: sans-serif;
   font-size: 21px;
@@ -387,7 +355,7 @@ body {
   line-height: 85%;
   color: #fff;
 }
-=======
-  background: linear-gradient(180deg, #06255B 0%, rgba(6, 37, 91, 0) 100%);
-}/*# sourceMappingURL=Mollenhauer-style.css.map */
->>>>>>> e1468118c47025cce1fffee41b346f6594d482d1
+
+.main {
+  flex: 1 1 auto;
+}
